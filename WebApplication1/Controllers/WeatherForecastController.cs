@@ -22,7 +22,6 @@ namespace WebApplication1.Controllers
         }
         //commit4
         [HttpGet(Name = "GetWeatherForecast")]
-        // commit 5 
         public IEnumerable<WeatherForecast> Get()
         {
             //commit6
