@@ -7,6 +7,7 @@ namespace WebApplication1.Controllers
     public class WeatherForecastController : ControllerBase
     {
         //change1
+        //commit 2
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
