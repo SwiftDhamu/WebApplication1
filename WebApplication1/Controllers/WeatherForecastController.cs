@@ -29,6 +29,7 @@ namespace WebApplication1.Controllers
             {
                 //commit7
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                //commit8
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
