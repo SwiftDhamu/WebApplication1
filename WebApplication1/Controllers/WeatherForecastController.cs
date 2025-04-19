@@ -30,6 +30,7 @@ namespace WebApplication1.Controllers
                 //commit7
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
+                //upsteam branch
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
