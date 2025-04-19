@@ -25,6 +25,7 @@ namespace WebApplication1.Controllers
         // commit 5 
         public IEnumerable<WeatherForecast> Get()
         {
+            //commit6
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
