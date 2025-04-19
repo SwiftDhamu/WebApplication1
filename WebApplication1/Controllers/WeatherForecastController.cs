@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
         }
-
+        //commit4
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
